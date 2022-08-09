@@ -1,0 +1,131 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Header section */
+header {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    z-index: 1;
+}
+
+.navigation {
+    position: fixed;
+    right: 20px;
+}
+
+.navigation li {
+    display: inline;
+    text-decoration: underline;
+    padding: 0 10px;
+}
+
+#logo {
+    height: 50px;
+    position: fixed;
+    padding: 10px;
+}
+
+/*Container section*/
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-flow: column; 
+}
+
+.container div {
+    width: 100%;
+    justify-content: center;
+}
+
+/* Mission section */
+.mission {
+    display: flex;
+    max-width: 1200px;
+    height: 700px;
+    background-image: url(./Images/img-mission-background.jpg);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.mission div {
+    background-color: black;
+    width: 100%;
+}
+
+/* Tea of the Month section */
+.tea-month {
+    display: flex;
+    max-width: 1000px;
+    text-align: center;
+    flex-direction: column; 
+}
+
+.tea-images {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.image-block {
+    box-sizing: border-box;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tea-images img {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+}
+
+/*Locations section*/
+.locations {
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    max-width: 1200px;
+    background-image: url(./Images/img-locations-background.jpg);
+
+}
+
+.location-boxes {
+    display: inline-flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.box {
+    box-sizing: border-box;
+    background-color: black;
+    margin: 15px 20px;
+    opacity: 1;
+    flex-basis: 300px;
+}
+
+/*Info section*/
+.info {
+    min-height: 200px;
+}
+
+/* Footer section */
+footer h5 {
+    text-align: left;
+    margin: 20px 20px;
+}
